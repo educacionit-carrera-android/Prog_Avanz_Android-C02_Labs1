@@ -1,13 +1,13 @@
 package com.example.fragmentexample
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
+import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 
-class FirstFragment : Fragment() {
+class FirstFragment : androidx.fragment.app.Fragment() {
 
     private var listener: FirstFragmentListener? = null
     private lateinit var btnShowContent: Button
